@@ -24,18 +24,18 @@ Use this script to update your application's authentication information in Cyber
 ## Usage
 
 Call the script providing minimum information necessary, accepting defaults for non-required variables.
-> $PVWAURL = "https://pvwa1.yourcompany.com"
-> $logonCredential = Get-Credential
-> $dllPath = "c:\intepub\yourapp\bin"
-> $cyberArkAppID = "yourAppID"
+> $PVWAURL = "https://pvwa1.yourcompany.com"  
+> $logonCredential = Get-Credential  
+> $dllPath = "c:\intepub\yourapp\bin"  
+> $cyberArkAppID = "yourAppID"  
 > .\updateAppAuth.ps1 -PVWAURL $PVWAURL -logonCredentail $logonCredential -dllPath $dllPath -CyberArkAppID $cyberArkAppID
 
 Call the script with optional items configured
-> $PVWAURL = "https://pvwa1.yourcompany.com"
-> $logonCredential = Get-Credential
-> $dllPath = "c:\intepub\yourapp\bin"
-> $cyberArkAppID = "yourAppID"
-> $logfile = "e:\tmp\logs\updateAppAuth.log"
+> $PVWAURL = "https://pvwa1.yourcompany.com"  
+> $logonCredential = Get-Credential  
+> $dllPath = "c:\intepub\yourapp\bin"  
+> $cyberArkAppID = "yourAppID"  
+> $logfile = "e:\tmp\logs\updateAppAuth.log"  
 > .\updateAppAuth.ps1 -PVWAURL $PVWAURL -logonCredentail $logonCredential -dllPath $dllPath -CyberArkAppID $cyberArkAppID -logfile $logfile -deleteOldAppAuthInfo $true
 
 
