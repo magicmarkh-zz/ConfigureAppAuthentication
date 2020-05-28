@@ -38,4 +38,9 @@ Call the script with optional items configured
 > $logfile = "e:\tmp\logs\updateAppAuth.log"  
 > .\updateAppAuth.ps1 -PVWAURL $PVWAURL -logonCredentail $logonCredential -dllPath $dllPath -CyberArkAppID $cyberArkAppID -logfile $logfile -deleteOldAppAuthInfo $true
 
+## Author
+Mark Hurter [magicmarkh](https://github.com/magicmarkh)
+
+## Special Thanks
+Pete Mann [pspete](https://github.com/pspete). Your [psPAS](https://github.com/pspete/psPAS) repo makes automating CyberArk API calls a breeze!
 
